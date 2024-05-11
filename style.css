@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #0f0f0f;
+    min-height: 20vh;
+}
+.section-dark{
+background-color: #282e34;
+color: white;
+min-height: 20vh;
+}
+
+.image{
+    background-attachment:fixed;
+    min-height: 80vh;
+}
+
+.first-image{
+    background-image: url(./assests/154.jpg);
+
+    text-align: center;
+    color: white;
+}
+.second-image{
+    background-image: url(./assests/86.jpg);
+    
+    text-align: center;
+    color: white;
+}
+.third-image{
+    background-image: url(./assests/155.jpg);
+
+    text-align: center;
+    color: white;
+}
+.forth-image{
+    background-image: url(./assests/154.jpg);
+
+    text-align: center;
+    color: white;
+}
